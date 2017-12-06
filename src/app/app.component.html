@@ -5,8 +5,11 @@
 <div id="robots">
   <mat-card class="robot"
             *ngFor="let robot of robots">
-    <h3>{{robot.name}}</h3>
-    <img src="http://www.robohash.org/{{robot.name}}" />
+    <mat-card-title>
+      {{robot.name}}
+    </mat-card-title>
+    <img mat-card-mat-image
+         src="http://www.robohash.org/{{robot.name}}" />
     <div *ngFor="let job of robot.jobs">
       {{job}}
     </div>
