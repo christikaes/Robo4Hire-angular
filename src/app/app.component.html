@@ -10,9 +10,9 @@
     </mat-card-title>
     <img mat-card-mat-image
          src="http://www.robohash.org/{{robot.name}}" />
-    <div *ngFor="let job of robot.jobs">
-      {{job}}
-    </div>
+    <mat-chip-list>
+      <mat-chip *ngFor="let job of robot.jobs">{{job}}</mat-chip>
+    </mat-chip-list>
     <button>Hire Me!</button>
   </mat-card>`
 </div>
