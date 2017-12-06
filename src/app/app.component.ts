@@ -6,5 +6,55 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  robots = [
+    {
+      name: "Gere",
+      jobs: ["cleaning", "washing"]
+    },
+    {
+      name: "Mace",
+      jobs: ["doing homework"]
+    },
+    {
+      name: "Data",
+      jobs: ["bit mining"]
+    },
+    {
+      name: "Efuy",
+      jobs: ["cooking", "laundry"]
+    },
+    {
+      name: "Gere",
+      jobs: ["cleaning", "washing"]
+    },
+    {
+      name: "Mace",
+      jobs: ["doing homework"]
+    },
+    {
+      name: "Data",
+      jobs: ["bit mining"]
+    },
+    {
+      name: "Efuy",
+      jobs: ["cooking", "laundry"]
+    },
+    {
+      name: "Gere",
+      jobs: ["cleaning", "washing"]
+    },
+    {
+      name: "Mace",
+      jobs: ["doing homework"]
+    },
+    {
+      name: "Data",
+      jobs: ["bit mining"]
+    },
+    {
+      name: "Efuy",
+      jobs: ["cooking", "laundry"]
+    }
+  ]
+
 }

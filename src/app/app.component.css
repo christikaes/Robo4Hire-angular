@@ -1,0 +1,11 @@
+#robots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#robot {
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+}
